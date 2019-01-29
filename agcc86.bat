@@ -1,0 +1,2 @@
+@echo off
+D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\toolchains\x86-4.9\prebuilt\windows-x86_64\bin\i686-linux-android-gcc.exe --sysroot=D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\platforms\android-21\arch-x86 -isysroot D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\sysroot -isystem D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\sysroot\usr\include\i686-linux-android -pie %*
