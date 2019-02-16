@@ -76,7 +76,7 @@ For Client device (Join in multiplayer game):
 11. If all goes well, all of the devices can enter the multiplayer room and the host can start the game.
 
 ## Note:
-1. Ensure that all of the devices had connected to the VPN server before running ```udp_relay``` program.
+1. Ensure that all of the devices are connected to the VPN server before running ```udp_relay``` program.
 2. Ensure that run ```udn_relay``` program before running the game. Or the game cannot bind the 23333 port.
 3. If anyone exit the room, it won't be removed from playerlist in the room. Maybe the host should re-create a room. At that time it doesn't need to restart the ```udp_relay```. This bug is caused by the way to discover other players by the soul knight.
 4. If **Unable to bind to socket**, use ```ps``` command to find out that whether there is an old ```udp_relay``` process running, if so,  kill it.
