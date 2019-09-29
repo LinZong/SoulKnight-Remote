@@ -2,18 +2,9 @@
 
 ### A C proram running in Linux layer of Android that relay the multiplayer discovery broadcast package from soul knight to the specified IP address and port in the same **IP POOL**.
 
-## Compile (For Windows)
+## Compile (For Linux)
 
-We have provided a pre-build verison of arm named ```udp_relay_arm```
-
-Need Android NDK toolchain to do a cross-platform compile. 
-
-0. Assume that you have unziped what it contains in [	android-ndk-r16b-windows-x86_64.zip](https://developer.android.com/ndk/downloads/) to **D:\ndk**
-
-1. Place ``` agcc.bat ``` and ```agcc86.bat``` to D:\ndk.
-2. Add D:\ndk and D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b to the ```PATH``` of Environment Variables.
-
-3. Execute ``` agcc.bat -o udp_relay udp_relay.c -std=c99 -O2  ``` in command prompt. If you want to compile a version for x86 platform, replace ```agcc.bat``` to ```agcc86.bat```
+Just compiple this tool on ARM Linux Platform by execute ``` make ``` command. 
 
 ## Usage
 
@@ -32,7 +23,7 @@ For Host device (Host a multiplayer game):
 For Client device (Join in multiplayer game):
 1. Connect to the PPTP VPN server mentioned above.
 
-### Step (For Windows)
+### Step
 
 
 0. Assume that the host had been connected to a computer in the same local network through cable, and you can see your device through execute ``` adb devices``` in command prompt. **Assume that all of the devices not connect to the VPN server and not running the game. If needed, I will tell you when to do what.**
