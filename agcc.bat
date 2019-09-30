@@ -1,2 +1,0 @@
-@echo off
-D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe --sysroot=D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\platforms\android-21\arch-arm -isysroot D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\sysroot -isystem D:\ndk\android-ndk-r16b-windows-x86_64\android-ndk-r16b\sysroot\usr\include\arm-linux-androideabi -pie %*
